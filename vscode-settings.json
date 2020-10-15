@@ -1,0 +1,64 @@
+{
+	// Settings
+
+	"workbench.settings.editor": "json",
+
+	// ************
+	// ** EDITOR **
+	// ************
+
+	"editor.cursorSmoothCaretAnimation": true,
+	"editor.wordWrap": "bounded",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.formatOnPaste": true,
+	"editor.minimap.enabled": false,
+	"editor.minimap.renderCharacters": false,
+	"editor.multiCursorModifier": "ctrlCmd",
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": true
+	},
+
+	// ***************
+	// ** WORKBENCH **
+	// ***************
+
+	"files.associations": {
+		"Dockerfile-centos": "dockerfile",
+		"Dockerfile_*": "dockerfile",
+		"dockerfile-*": "dockerfile"
+	},
+	"workbench.colorTheme": "Gruvbox Dark (Medium)",
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorCustomizations": {
+		"editor.selectionBackground": "#135564",
+		"editor.selectionHighlightBackground": "#135564"
+	},
+
+	// NPM
+
+	"npm.packageManager": "yarn",
+
+	// ****************
+	// ** EXTENSIONS **
+	// ****************
+
+	"prettier.packageManager": "yarn",
+	"prettier.bracketSpacing": true,
+	"prettier.useTabs": true,
+	"eslint.quiet": true,
+	"terminal.integrated.shell.osx": "/bin/zsh",
+	"terminal.explorerKind": "external",
+
+	// MARKDOWN
+	"[markdown]": {
+		"editor.quickSuggestions": false
+	},
+
+	// JAVASCRIPT
+	"javascript.preferences.quoteStyle": "double",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnSave": true
+	}
+}
