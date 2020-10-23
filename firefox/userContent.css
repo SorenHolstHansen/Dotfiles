@@ -1,0 +1,7 @@
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:privatebrowsing") {
+  /*
+  .ds-highlights, .search-wrapper, .section-top-bar {
+    display: none !important;
+  }
+*/
+}
