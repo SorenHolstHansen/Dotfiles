@@ -2,6 +2,9 @@
 	// Settings
 
 	"workbench.settings.editor": "json",
+	"workbench.editor.tabCloseButton": "left",
+	"workbench.editor.limit.enabled": true,
+	"workbench.editor.limit.value": 4,
 
 	// ************
 	// ** EDITOR **
@@ -15,9 +18,10 @@
 	"editor.minimap.enabled": false,
 	"editor.minimap.renderCharacters": false,
 	"editor.multiCursorModifier": "ctrlCmd",
-	"editor.codeActionsOnSave": {
-		"source.organizeImports": true
-	},
+
+	// TELEMETRY
+	"telemetry.enableCrashReporter": false,
+	"telemetry.enableTelemetry": false,
 
 	// ***************
 	// ** WORKBENCH **
@@ -45,8 +49,12 @@
 
 	"prettier.packageManager": "yarn",
 	"prettier.bracketSpacing": true,
+	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"eslint.quiet": true,
+	"emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
+
+	// TERMINAL
 	"terminal.integrated.shell.osx": "/bin/zsh",
 	"terminal.explorerKind": "external",
 
@@ -56,9 +64,11 @@
 	},
 
 	// JAVASCRIPT
-	"javascript.preferences.quoteStyle": "double",
+	"javascript.preferences.quoteStyle": "single",
 	"[javascript]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true
-	}
+	},
+	"prettier.jsxSingleQuote": true,
+	"typescript.preferences.quoteStyle": "single"
 }
