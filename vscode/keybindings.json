@@ -1,23 +1,27 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
 	{
-		"key": "cmd+e cmd+w",
-		"command": "workbench.action.showAllSymbols"
-	},
-	{
 		"key": "cmd+t",
 		"command": "workbench.action.terminal.toggleTerminal"
 	},
 	{
-		"key": "shift+cmd+right",
+		"key": "ctrl+shift+right",
 		"command": "workbench.action.terminal.focusNext"
 	},
 	{
-		"key": "shift+cmd+up",
+		"key": "ctrl+shift+left",
+		"command": "workbench.action.terminal.focusPrevious"
+	},
+	{
+		"key": "ctrl+shift+up",
 		"command": "workbench.action.terminal.new"
 	},
 	{
-		"key": "shift+cmd+down",
+		"key": "ctrl+shift+down",
 		"command": "workbench.action.terminal.kill"
+	},
+	{
+		"key": "cmd+n",
+		"command": "explorer.newFile"
 	}
 ]
