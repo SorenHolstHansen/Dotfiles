@@ -19,6 +19,12 @@
 	"editor.minimap.renderCharacters": false,
 	"editor.multiCursorModifier": "ctrlCmd",
 
+	// ************
+	// ** EDITOR **
+	// ************
+
+	"explorer.compactFolders": false,
+
 	// TELEMETRY
 	"telemetry.enableCrashReporter": false,
 	"telemetry.enableTelemetry": false,
@@ -52,6 +58,7 @@
 	"prettier.singleQuote": true,
 	"prettier.useTabs": true,
 	"eslint.quiet": true,
+	"eslint.packageManager": "yarn",
 	"emmet.excludeLanguages": ["typescript", "typescriptreact", "javascript"],
 
 	// TERMINAL
