@@ -1,0 +1,12 @@
+{
+	"Util": {
+		"prefix": "util",
+		"body": [
+			"const ${TM_FILENAME_BASE} = () => {",
+			"\treturn $1",
+			"};",
+			"",
+			"export default ${TM_FILENAME_BASE};"
+		]
+	}
+}
